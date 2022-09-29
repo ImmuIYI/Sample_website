@@ -1,5 +1,5 @@
 .contact-content {
-    height: 450px;
+    height: 500px;
     background-color: rgb(255, 255, 255);
     /*background-image: linear-gradient(to right, rgb(183, 220, 253), rgb(255, 255, 255));*/
     display: flex;
@@ -76,6 +76,10 @@
     margin:0 13px;
     font-family: var(--font2);
     background: rgb(255, 255, 255);
-    height: 200px;
+    height: 50px;
     width: 250px;
+}
+.submit{
+    margin-top: 300px;
+    margin-left: -282px;
 }
