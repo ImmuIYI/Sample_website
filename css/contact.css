@@ -1,0 +1,81 @@
+.contact-content {
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    /*background-image: linear-gradient(to right, rgb(183, 220, 253), rgb(255, 255, 255));*/
+    display: flex;
+    padding-left: 15px;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: var(--font2);
+}
+.navigation-contact {
+    font-family: var(--font2);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+.footer-contact {
+    height: 60px;
+    background-image: linear-gradient(to left, rgb(255, 255, 255),rgb(255, 255, 255));
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    color: rgb(0, 0, 0);
+    flex-direction: column;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+.footer-contact a {
+    color: rgb(0, 0, 0);
+}
+.footer-contact a:hover{
+    color: rgb(40, 148, 211);
+    transition: all 0.4s ease-in-out;
+}
+.name{
+    margin-top: 80px;
+    margin-left: -50px;
+}
+.box{
+    margin-bottom: -25px;
+    margin-left: -150px;
+}
+.mail{
+    margin-top: 130px;
+    margin-left: -223px;
+}
+.box-mail{
+    margin-bottom: -26px;
+    margin-left: -143px;
+}
+.number{
+    margin-top: 180px;
+    margin-left: -223px;
+}
+.box-number{
+    margin-top: 178px;
+    margin-left: -355px;
+}
+.comment{
+    margin-top: 220px;
+    margin-left: 9px;
+}
+.box-comment{
+    margin-bottom: -20px;
+    margin-left: -160px;
+}
+.form-input-contact {
+    padding: 2px 8px;
+    font-size: 14px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin:0 13px;
+    font-family: var(--font2);
+    background: rgb(255, 255, 255);
+    height: 200px;
+    width: 250px;
+}

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+:root {
+    --main-bg-color: rgb(9, 60, 80);
+    --font1:'Roboto Mono', monospace;
+    --font2:'Kanit', sans-serif;
+    --font3:'Rajdhani', sans-serif;
+}
+
+
+.max-width-1 {
+    max-width: 80vw;
+}
+
+.max-width-2 {
+    max-width: 60vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.btn {
+    margin-right: 2vw;
+    padding: 1px 10px;
+    border: 2px solid black;
+    border-radius: 7px;
+    font-size: 14px;
+    font-family: var(--font2);
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+.btn:hover{
+    color: white;
+    background: var(--main-bg-color);
+}
+.form-input {
+    padding: 2px 8px;
+    font-size: 14px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin:0 13px;
+    font-family: var(--font2);
+    background: rgb(255, 255, 255);
+}
+
+.font1{
+    font-family: var(--font1);
+}
+.font2{
+    font-family: var(--font2);
+}
+.font3{
+    font-family: var(--font3);
+}
+.padding{
+    padding-top: 10px;
+}
